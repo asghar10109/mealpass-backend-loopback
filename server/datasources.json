@@ -1,0 +1,12 @@
+{
+  "mySqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "mealpass2",
+    "password": "root123",
+    "name": "mySqlDs",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
