@@ -46,5 +46,25 @@
   "resturant": {
     "dataSource": "mySqlDs",
     "public": true
+  },
+  "reservations": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "reviews": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "products": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "orders": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "orders_details": {
+    "dataSource": "mySqlDs",
+    "public": true
   }
 }

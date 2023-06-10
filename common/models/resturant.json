@@ -31,6 +31,38 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "reservations": {
+      "type": "hasMany",
+      "model": "reservations",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "reviews": {
+      "type": "hasMany",
+      "model": "reviews",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "products": {
+      "type": "hasMany",
+      "model": "products",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "orders": {
+      "type": "hasMany",
+      "model": "orders",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

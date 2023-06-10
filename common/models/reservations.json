@@ -1,0 +1,26 @@
+{
+  "name": "reservations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "table": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "any"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

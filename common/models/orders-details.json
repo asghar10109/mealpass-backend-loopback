@@ -1,26 +1,29 @@
 {
-  "name": "user",
-  "base": "User",
+  "name": "orders_details",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "quantity": {
       "type": "string"
     },
-    "isAdmin": {
-      "type": "boolean"
-    },
-    "phoneNumber": {
+    "totalprice": {
       "type": "string"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
     }
   },
   "validations": [],
   "relations": {
-    "reviews": {
+    "products": {
       "type": "hasMany",
-      "model": "reviews",
+      "model": "products",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

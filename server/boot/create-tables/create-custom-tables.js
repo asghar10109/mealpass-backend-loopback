@@ -19,6 +19,27 @@ module.exports = function(app) {
     if (err) throw err;
     console.log('resturant table created');
   });
+  ds.autoupdate('reservations', function(err) {
+    if (err) throw err;
+    console.log('reservations table created');
+  });
+  ds.autoupdate('reviews', function(err) {
+    if (err) throw err;
+    console.log('reviews table created');
+  });
+  ds.autoupdate('products', function(err) {
+    if (err) throw err;
+    console.log('products table created');
+  });
+  ds.autoupdate('orders', function(err) {
+    if (err) throw err;
+    console.log('orders table created');
+  });
+  ds.autoupdate('orders_details', function(err) {
+    if (err) throw err;
+    console.log('orders_details table created');
+  });
+
   // ds.autoupdate('accountprofile', function(err) {
   //   if (err) throw err;
   //   console.log('accountprofile created');

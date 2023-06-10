@@ -1,0 +1,41 @@
+{
+  "name": "orders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "order_no": {
+      "type": "string"
+    },
+    "payment_type": {
+      "type": "boolean"
+    },
+    "order_current_status": {
+      "type": "boolean"
+    },
+    "order_name": {
+      "type": "string"
+    },
+    "order_email": {
+      "type": "string"
+    },
+    "order_phone": {
+      "type": "string"
+    },
+    "order_status": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
