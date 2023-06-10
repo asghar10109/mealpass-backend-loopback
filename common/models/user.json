@@ -14,6 +14,21 @@
     },
     "phoneNumber": {
       "type": "string"
+    },
+    "avator": {
+      "type": "string"
+    },
+    "isSocial": {
+      "type": "boolean"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
     }
   },
   "validations": [],
