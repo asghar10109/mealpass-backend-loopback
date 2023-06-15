@@ -13,6 +13,7 @@
     "password": {
       "type": "string",
       "required": true
+      
     },
     "avator": {
       "type": "string"
