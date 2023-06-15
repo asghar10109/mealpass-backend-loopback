@@ -1,11 +1,22 @@
 {
-  "name": "user",
+  "name": "testuser",
   "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "avator": {
+      "type": "string"
+    },
     "name": {
       "type": "string"
     },
@@ -13,9 +24,6 @@
       "type": "boolean"
     },
     "phoneNumber": {
-      "type": "string"
-    },
-    "avator": {
       "type": "string"
     },
     "isSocial": {
@@ -33,17 +41,17 @@
   },
   "validations": [],
   "relations": {
-    "reviews": {
+    "orders": {
       "type": "hasMany",
-      "model": "reviews",
+      "model": "orders",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
       }
     },
-    "orders": {
+    "reviews": {
       "type": "hasMany",
-      "model": "orders",
+      "model": "reviews",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

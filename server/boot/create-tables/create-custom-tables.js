@@ -7,10 +7,7 @@ module.exports = function(app) {
   }
   var ds = app.dataSources.mySqlDs;
 
-  ds.autoupdate('user', function(err) {
-    if (err) throw err;
-    console.log('account table created');
-  });
+
   ds.autoupdate('category', function(err) {
     if (err) throw err;
     console.log('category table created');
@@ -39,25 +36,13 @@ module.exports = function(app) {
     if (err) throw err;
     console.log('orders_details table created');
   });
-
-  // ds.autoupdate('accountprofile', function(err) {
-  //   if (err) throw err;
-  //   console.log('accountprofile created');
-  // });
-  // ds.autoupdate('medicine', function(err) {
-  //   if (err) throw err;
-  //   console.log('medicine table created');
-  // });
-  // ds.autoupdate('favourite', function(err) {
-  //   if (err) throw err;
-  //   console.log('favourite table created');
-  // });
-  // ds.autoupdate('databaseSync', function(err) {
-  //   if (err) throw err;
-  //   console.log('databaseSync table created');
-  // });
-  // ds.autoupdate('databaseSyncConfig', function(err) {
-  //   if (err) throw err;
-  //   console.log('databaseSyncConfig table created');
-  // });
+  ds.autoupdate('testuser', function(err) {
+    if (err) throw err;
+    console.log('testuser table created');
+  });
+  ds.autoupdate('pro_variations', function(err) {
+    if (err) throw err;
+    console.log('pro_variations table created');
+  });
+ 
 };

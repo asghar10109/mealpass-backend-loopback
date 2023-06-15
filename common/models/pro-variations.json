@@ -1,0 +1,28 @@
+{
+  "name": "pro_variations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "attribute": {
+      "type": "string"
+    },
+    "variations": {
+      "type": [
+        "string"
+      ]
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

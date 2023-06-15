@@ -35,10 +35,6 @@
     "dataSource": "mySqlDs",
     "public": false
   },
-  "user": {
-    "dataSource": "mySqlDs",
-    "public": true
-  },
   "category": {
     "dataSource": "mySqlDs",
     "public": true
@@ -64,6 +60,14 @@
     "public": true
   },
   "orders_details": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "testuser": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "pro_variations": {
     "dataSource": "mySqlDs",
     "public": true
   }

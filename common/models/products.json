@@ -29,7 +29,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "proVariations": {
+      "type": "hasMany",
+      "model": "pro_variations",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
