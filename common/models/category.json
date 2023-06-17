@@ -1,6 +1,6 @@
 {
   "name": "category",
-  "base": "PersistedModel",
+  "base": "02",
   "idInjection": true,
   "options": {
     "validateUpsert": true
