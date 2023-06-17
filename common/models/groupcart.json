@@ -1,0 +1,35 @@
+{
+  "name": "groupcart",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "isaccepted": {
+      "type": "boolean"
+    },
+    "isvolet": {
+      "type": "boolean"
+    },
+    "at_credited": {
+      "type": "date"
+    },
+    "at_updated": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cart": {
+      "type": "belongsTo",
+      "model": "cart",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

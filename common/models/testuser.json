@@ -56,6 +56,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "groupcarts": {
+      "type": "hasMany",
+      "model": "groupcart",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
