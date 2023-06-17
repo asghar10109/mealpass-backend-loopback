@@ -70,5 +70,17 @@
   "pro_variations": {
     "dataSource": "mySqlDs",
     "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "cart": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "groupcart": {
+    "dataSource": "mySqlDs",
+    "public": true
   }
 }

@@ -44,5 +44,14 @@ module.exports = function(app) {
     if (err) throw err;
     console.log('pro_variations table created');
   });
+  ds.autoupdate('cart', function(err) {
+    if (err) throw err;
+    console.log('cart table created');
+  });
+  ds.autoupdate('groupcart', function(err) {
+    if (err) throw err;
+    console.log('groupcart table created');
+  });
+  
  
 };

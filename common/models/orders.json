@@ -35,7 +35,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "ordersDetails": {
+      "type": "hasMany",
+      "model": "orders_details",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
