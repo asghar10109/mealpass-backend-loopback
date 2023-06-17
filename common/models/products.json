@@ -37,6 +37,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "ordersDetails": {
+      "type": "hasMany",
+      "model": "orders_details",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

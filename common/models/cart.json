@@ -1,0 +1,26 @@
+{
+  "name": "cart",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "isvolet": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "testuser": {
+      "type": "belongsTo",
+      "model": "testuser",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
